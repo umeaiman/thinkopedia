@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ThinkOPedia</string>
+    <string name="vowels1">Vowels</string>
+    <string name="ques1_vowels">Question # 01</string>
+    <string name="quest2_vowels">Question # 02</string>
+    <string name="quest3_vowels">Question # 03</string>
+    <string name="quest4_vowels">Question # 04</string>
+    <string name="quest5_vowels">Question # 05</string>
+    <string name="quest6_vowels">Question # 06</string>
+    <string name="opt1_vowels">Option1</string>
+    <string name="opt2_vowels">Option2</string>
+    <string name="opt3_vowels">Option3</string>
+    <string name="opt4_vowels">Option4</string>
+    <string name="vowels">Vowels</string>
+    <string name="opt1">Opt1</string>
+    <string name="answer">Answer</string>
+    <string name="answer_1_is">Answer 1 is</string>
+    <string name="answer_2_is">Answer 2 is</string>
+    <string name="answer_3_is">Answer 3 is</string>
+    <string name="answer_4_is">Answer 4 is</string>
+    <string name="VOWELS">VOWELS</string>
+    <string name="ANIMALS">ANIMALS</string>
+    <string name="OR">OR</string>
+</resources>

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.thinkopedia">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +11,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".animalQuestion2"></activity>
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".PartsOfBodyActivity" android:noHistory="true"/>
+        <activity android:name=".PartsOfBodyA3" android:noHistory="true"/>
+        <activity android:name=".PartsOfBodyA4" android:noHistory="true" />
+        <activity android:name=".PartsOfBodyA5" android:noHistory="true"/>
+        <activity android:name=".PartsOfBodyA6" android:noHistory="true"/>
+        <activity android:name=".PartsOfBodyA7" android:noHistory="true" />
+        <activity android:name=".PartsOfBodyA8" android:noHistory="true"/>
+        <activity android:name=".PartsOfBodyA9" android:noHistory="true"/>
+        <activity android:name=".PartsOfBodyA10" android:noHistory="true"/>
+        <activity android:name=".ColorActivity" android:noHistory="true"/>
+        <activity android:name=".ColorA2" android:noHistory="true"/>
+        <activity android:name=".ColorA3" android:noHistory="true"/>
+        <activity android:name=".ColorA4" android:noHistory="true"/>
+        <activity android:name=".ColorA5" android:noHistory="true"/>
+        <activity android:name=".ColorA6" android:noHistory="true"/>
+        <activity android:name=".ColorA7" android:noHistory="true" />
+        <activity android:name=".ColorA8" android:noHistory="true"/>
+        <activity android:name=".ColorA9" android:noHistory="true"/>
+        <activity android:name=".ColorA10" android:noHistory="true"/>
+        <activity android:name=".BirdA2" android:noHistory="true"/>
+        <activity android:name=".BirdA3" android:noHistory="true"/>
+        <activity android:name=".BirdA4" android:noHistory="true"/>
+        <activity android:name=".BirdA5" android:noHistory="true"/>
+        <activity android:name=".BirdA6" android:noHistory="true"/>
+        <activity android:name=".BirdA7" android:noHistory="true"/>
+        <activity android:name=".BirdA8" android:noHistory="true"/>
+        <activity android:name=".BirdA9" android:noHistory="true"/>
+        <activity android:name=".BirdA10" android:noHistory="true"/>
+        <activity android:name=".animalActivity" android:noHistory="true"/>
+        <activity android:name=".animalQ3" android:noHistory="true"/>
+        <activity android:name=".animalQ4" android:noHistory="true"/>
+        <activity android:name=".animalQ5" android:noHistory="true"/>
+        <activity android:name=".animalQ6" android:noHistory="true"/>
+        <activity android:name=".animalQ7" android:noHistory="true" />
+        <activity android:name=".animalQ8" android:noHistory="true"/>
+        <activity android:name=".animalQ9" android:noHistory="true"/>
+        <activity android:name=".animalQ10" android:noHistory="true"/>
+        <activity android:name=".birdActivity" android:noHistory="true"/>
+        <activity android:name=".MainActivity" android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,6 +61,7 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>

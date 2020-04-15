@@ -21,4 +21,11 @@
     <string name="VOWELS">VOWELS</string>
     <string name="ANIMALS">ANIMALS</string>
     <string name="OR">OR</string>
+    <string name="b" />
+    <string name="aniq1">This is a _________</string>
+    <string name="op1">COW</string>
+    <string name="op2">CAT</string>
+    <string name="q">This is a ______</string>
+    <string name="btnElephant">Elephant</string>
+    <string name="btnGiraffe">Giraffe</string>
 </resources>

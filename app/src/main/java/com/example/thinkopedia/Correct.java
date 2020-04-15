@@ -25,7 +25,7 @@ public class Correct extends DialogFragment {
         return builder.create();
     }
     public void question2Ani(){
-        Intent intent = new Intent(getContext(), animalQuestion2.class);
+        Intent intent = new Intent(getContext(), animalQ3.class);
         startActivity(intent);
     }
 
